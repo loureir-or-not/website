@@ -32,7 +32,7 @@ export default function RootLayout({
         <header className="overflow-auto p-2 m-3 rounded-3xl bg-olive-200 dark:bg-olive-800">
           <NavBar />
         </header>
-        <main className="min-h-screen p-8 w-full md:w-4xl self-center-safe">
+        <main className="min-h-screen p-8 w-full md:w-3xl self-center-safe">
           {children}
         </main>
         <footer className="flex flex-col gap-2 text-sm text-center rounded-3xl p-2 m-3 bg-olive-200 dark:bg-olive-800">

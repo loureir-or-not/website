@@ -95,7 +95,7 @@ export default function Page() {
         </a>
       </Card>
       <h1>Skills</h1>
-      <section className="grid grid-cols-4 gap-2 content-stretch">
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-2 content-stretch">
         <Card>Frontend development</Card>
         <Card>Library development</Card>
         <Card>Backend development</Card>
