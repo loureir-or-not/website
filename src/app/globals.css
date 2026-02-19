@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  @apply bg-olive-100 text-olive-900 dark:bg-olive-900 dark:text-olive-100 scroll-smooth;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, sans-serif;
+}
+
+.navbutton {
+  @apply transition-colors duration-300 ease-in-out p-3 border-2 rounded-2xl text-olive-900 dark:text-olive-300;
+}
+
+.navbutton:hover {
+  @apply text-black dark:text-white;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+a {
+  @apply transition-all duration-300 ease-in-out text-olive-900 dark:text-olive-300 font-bold;
+}
+
+a:hover {
+  @apply text-black dark:text-white;
+}
+
+.bigBadText {
+  @apply text-8xl font-bold text-red-500;
+}
