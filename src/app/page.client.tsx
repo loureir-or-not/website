@@ -102,6 +102,12 @@ export default function Page() {
         <Card>CI development</Card>
         <Card>GitHub Actions</Card>
         <Card>Vercel</Card>
+        <Card>Next.js</Card>
+        <Card>React</Card>
+        <Card>Svelte</Card>
+        <Card>Astro</Card>
+        <Card>TypeScript</Card>
+        <Card>JavaScript</Card>
         <Card>Rust</Card>
         <Card>Go</Card>
         <Card>Python</Card>
