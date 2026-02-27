@@ -7,7 +7,7 @@ interface Frontmatter {
   date: Date;
 }
 
-interface Post {
+type Post = {
   frontmatter: Frontmatter;
 }
 
