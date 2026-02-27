@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import React from "react";
 
 interface Frontmatter {
   title: string;
@@ -7,7 +8,8 @@ interface Frontmatter {
   date: Date;
 }
 
-type Post = {
+interface Post {
+  default: React.ElementType;
   frontmatter: Frontmatter;
 }
 
@@ -53,10 +55,8 @@ export default async function Page({ params }: Props) {
     );
   } catch (err) {
     if (
-      typeof err == "object" &&
-      err &&
+      err instanceof Error &&
       "code" in err &&
-      typeof err.code == "string" &&
       err.code == "MODULE_NOT_FOUND"
     ) {
       notFound();
