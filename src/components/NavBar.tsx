@@ -15,7 +15,10 @@ function createNavButton(name: string, href: string, id: number) {
 }
 
 export default function NavBar() {
-  const navs: NavButton[] = [{ name: "Home", href: "/", id: 0 }];
+  const navs: NavButton[] = [
+    { name: "Home", href: "/", id: 0 },
+    { name: "Blog", href: "/blog", id: 1 },
+  ];
   return (
     <>
       <nav className="flex justify-center md:grid grid-cols-2 gap-4">
@@ -24,7 +27,7 @@ export default function NavBar() {
             Renato Loureiro
           </Link>
         </div>
-        <div className="flex gap-4 justify-end">
+        <div className="flex gap-2 justify-end">
           {navs.map(({ name, href, id }) => createNavButton(name, href, id))}
         </div>
       </nav>

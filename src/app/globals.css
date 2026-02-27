@@ -11,18 +11,40 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@media (prefers-color-scheme: dark) {
+  .shiki,
+  .shiki span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+    /* Optional, if you also want font styles */
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Inter, sans-serif;
 }
 
-.navbutton {
-  @apply transition-colors duration-300 ease-in-out p-3 border-2 rounded-2xl text-olive-900 dark:text-olive-300;
+pre,
+img {
+  @apply rounded-xl;
 }
 
-.navbutton:hover {
-  @apply text-black dark:text-white;
+pre {
+  @apply p-4 self-stretch;
+}
+
+td,
+th {
+  @apply px-2 py-1 border;
+}
+
+hr {
+  @apply h-px w-full bg-olive-900 dark:bg-olive-100;
 }
 
 h1,
@@ -48,6 +70,14 @@ a {
 }
 
 a:hover {
+  @apply text-black dark:text-white;
+}
+
+.navbutton {
+  @apply transition-colors duration-300 ease-in-out p-3 border-2 rounded-full text-olive-900 dark:text-olive-300;
+}
+
+.navbutton:hover {
   @apply text-black dark:text-white;
 }
 

@@ -10,7 +10,8 @@ export default function Page() {
     <article className="flex flex-col gap-2 items-center">
       <h1 className="bigBadText">404</h1>
       <p>
-        Couldn't find the page you are looking for. Maybe try something else?
+        Couldn&apos;t find the page you are looking for. Maybe try something
+        else?
       </p>
     </article>
   );
