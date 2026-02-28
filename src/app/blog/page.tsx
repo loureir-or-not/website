@@ -16,7 +16,7 @@ export default async function Page() {
   const posts = (await fs.readdir(postsDirectory))
     .filter((file) => file.endsWith(".md"))
     .map((file) => file.substring(0, file.indexOf(".md")))
-    .map((slug, index) => <ArticleCard slug={slug} key={index} />);
+    .map((slug, index) => <ArticleCard slug={slug} id={index} />);
   return (
     <article className="flex flex-col gap-4">
       <p>
