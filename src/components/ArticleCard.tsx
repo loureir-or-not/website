@@ -3,14 +3,14 @@ import Card from "./Card";
 
 interface Props {
   slug: string;
-  key: number;
+  id: number;
 }
 
-export default async function ArticleCard({ slug, key }: Readonly<Props>) {
+export default async function ArticleCard({ slug, id }: Readonly<Props>) {
   const { frontmatter } = await import(`@/posts/${slug}.md`);
   if (frontmatter.published) {
     return (
-      <Card key={key}>
+      <Card key={id}>
         <h2>
           <Link href={`/blog/${slug}`}>{frontmatter.title}</Link>
         </h2>

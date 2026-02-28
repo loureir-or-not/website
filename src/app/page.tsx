@@ -69,9 +69,9 @@ export default function Page() {
           A Rosetta-Code project for benchmarking the collatz conjecture.
           Includes examples written in Go, Rust, Python, and other languages.
         </p>
-        <a href="https://github.com/loureir-or-not/collatzmark">
+        <Link href="https://github.com/loureir-or-not/collatzmark">
           <GitHub />
-        </a>
+        </Link>
       </Card>
       <Card>
         <h2>sget</h2>
@@ -79,9 +79,9 @@ export default function Page() {
           It gets information about your system, and prints it out in a pretty
           way. It is written entirely in Haskell.
         </p>
-        <a href="https://github.com/loureir-or-not/sget">
+        <Link href="https://github.com/loureir-or-not/sget">
           <GitHub />
-        </a>
+        </Link>
       </Card>
       <Card>
         <h2>This website</h2>
