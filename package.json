@@ -27,7 +27,7 @@
     "remark-mdx-frontmatter": "^5.2.0"
   },
   "devDependencies": {
-    "@shikijs/rehype": "^3.23.0",
+    "@shikijs/rehype": "^4.4.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
