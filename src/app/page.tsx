@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { Email, GitHub, LinkedIn, Telegram } from "@mui/icons-material";
 import Link from "next/link";
 import Card from "../components/Card";
 
