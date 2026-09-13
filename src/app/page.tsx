@@ -72,7 +72,7 @@ export default function Page() {
           Includes examples written in Go, Rust, Python, and other languages.
         </p>
         <Link href="https://github.com/loureir-or-not/collatzmark">
-          <GitHub />
+          GitHub
         </Link>
       </Card>
       <Card>
@@ -82,7 +82,7 @@ export default function Page() {
           way. It is written entirely in Haskell.
         </p>
         <Link href="https://github.com/loureir-or-not/sget">
-          <GitHub />
+          GitHub
         </Link>
       </Card>
       <Card>
@@ -93,7 +93,7 @@ export default function Page() {
           to it&apos;s integration with Next.js.
         </p>
         <a href="https://github.com/loureir-or-not/website">
-          <GitHub />
+          GitHub
         </a>
       </Card>
       <h1>Skills</h1>
