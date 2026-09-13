@@ -26,20 +26,23 @@ export default function Page() {
             Linux systems, as well as FreeBSD systems.
           </p>
           <div className="flex justify-evenly h-full">
+            <Link href="https://github.com/loureir-or-not" title="Renato's GitHub profile">
+              GitHub
+            </Link>
+            <Link href="mailto:loureiror@proton.me" title="Renato's Email address">
+              Email
+            </Link>
+            <Link href="https://matrix.to/#/@loureir-or-not:private.coffee" title="Renato's Matrix ID">
+              Matrix
+            </Link>
             <Link
               href="https://www.linkedin.com/in/renato-loureiro-530aa43b1/"
-              title="LinkedIn"
+              title="Renato's LinkedIn profile"
             >
-              <LinkedIn />
+              LinkedIn
             </Link>
-            <Link href="https://github.com/loureir-or-not" title="GitHub">
-              <GitHub />
-            </Link>
-            <Link href="mailto:loureiror@proton.me" title="Email">
-              <Email />
-            </Link>
-            <Link href="#" title="Telegram (@loureir_or_not)">
-              <Telegram />
+            <Link href="#" title="Renato's Telegram account (@loureir_or_not)">
+              Telegram
             </Link>
           </div>
         </div>
