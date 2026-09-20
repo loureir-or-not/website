@@ -19,7 +19,7 @@
     "@types/mdx": "^2.0.14",
     "next": "16.1.6",
     "prettier": "^3.9.6",
-    "react": "19.2.3",
+    "react": "19.3.0",
     "react-dom": "19.2.3",
     "remark-frontmatter": "^5.0.0",
     "remark-gfm": "^4.0.1",
