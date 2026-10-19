@@ -3,7 +3,8 @@
 
 	let { data }: PageProps = $props();
 
-	const { post, module } = data;
+	const { post, content } = data;
+	const Content = content.default;
 </script>
 
 <article class="flex flex-col gap-4">
@@ -11,5 +12,5 @@
 		<h1>{post.title}</h1>
 		<p>{post.description} - {post.date}</p>
 	</header>
-	<svelte:component this={module} />
+	<Content />
 </article>

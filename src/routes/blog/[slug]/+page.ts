@@ -10,6 +10,6 @@ export const load: PageLoad = async ({ params }) => {
 	const module = await import(`../../../content/posts/${post._meta.filePath}`);
 	return {
 		post,
-		module: module.default
+		content: module
 	};
 };
