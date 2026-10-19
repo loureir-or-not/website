@@ -6,7 +6,7 @@ html {
 }
 
 nav {
-	@apply border-2 border-purple-900 p-2;
+	@apply rounded-sm border-2 border-purple-900 p-2;
 }
 
 a {
@@ -29,8 +29,16 @@ h3 {
 	@apply text-xl font-bold;
 }
 
+ul li {
+	list-style: circle inside;
+}
+
+ol li {
+	list-style: decimal inside;
+}
+
 .blog-entry {
-	@apply flex flex-col gap-2 border-2 border-purple-900 p-4;
+	@apply flex flex-col gap-2 rounded-sm border-2 border-purple-900 p-4;
 }
 
 .shiki {
@@ -41,10 +49,34 @@ h3 {
 	content: '# ' / 'Link';
 }
 
-ul li {
-	list-style: circle inside;
-}
+@media (prefers-color-scheme: dark) {
+	.shiki,
+	.shiki span {
+		color: var(--shiki-dark) !important;
+		background-color: var(--shiki-dark-bg) !important;
+		/* Optional, if you also want font styles */
+		font-style: var(--shiki-dark-font-style) !important;
+		font-weight: var(--shiki-dark-font-weight) !important;
+		text-decoration: var(--shiki-dark-text-decoration) !important;
+	}
 
-ol li {
-	list-style: decimal inside;
+	html {
+		@apply bg-mauve-900 font-sans text-white;
+	}
+
+	.blog-entry {
+		@apply border-purple-400 bg-mauve-900;
+	}
+
+	a {
+		@apply text-purple-400;
+	}
+
+	a:hover {
+		@apply text-purple-300;
+	}
+
+	nav {
+		@apply border-2 border-purple-400 p-2;
+	}
 }

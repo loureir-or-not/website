@@ -6,6 +6,6 @@ export const load: PageLoad = async () => {
 		.filter((post) => post.published)
 		.toSorted((a, b) => Date(b.date) - Date(a.date));
 	return {
-		posts,
+		posts
 	};
 };

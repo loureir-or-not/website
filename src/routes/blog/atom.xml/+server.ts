@@ -1,6 +1,6 @@
 import type { RequestHandler } from './$types';
-import { allPosts } from "content-collections";
-import MarkdownIt from "markdown-it";
+import { allPosts } from 'content-collections';
+import MarkdownIt from 'markdown-it';
 
 export const GET: RequestHandler = () => {
 	const md = new MarkdownIt();
@@ -31,7 +31,7 @@ ${md.render(post.content)}
 </feed>`;
 	return new Response(feed, {
 		headers: {
-			"Content-Type": "application/atom+xml"
+			'Content-Type': 'application/atom+xml'
 		}
 	});
 };

@@ -3,7 +3,7 @@ import { allPosts } from 'content-collections';
 import { error } from '@sveltejs/kit';
 
 export const load: PageLoad = async ({ params }) => {
-	const posts = await import.meta.glob("../../../content/posts/**/*.md");
+	const posts = await import.meta.glob('../../../content/posts/**/*.md');
 	const post = allPosts.find((post) => post.slug == params.slug);
 	if (!post) {
 		error(404, `Could not find ${params.slug}`);
