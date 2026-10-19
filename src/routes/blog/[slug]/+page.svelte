@@ -3,8 +3,8 @@
 
 	let { data }: PageProps = $props();
 
-	const { post, content } = data;
-	const Content = content.default;
+	const { post, content } = $derived(data);
+	const Content = $derived(content.default);
 </script>
 
 <article class="flex flex-col gap-4">

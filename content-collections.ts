@@ -14,7 +14,7 @@ const posts = defineCollection({
 	}),
 	transform: (doc) => ({
 		...doc,
-		slug: doc.title.toLowerCase().replace(/ /g, '-')
+		slug: doc._meta.path
 	})
 });
 
