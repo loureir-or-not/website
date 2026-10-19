@@ -2,6 +2,11 @@
 	import pfp from '#lib/assets/pfp.png';
 </script>
 
+<svelte:head>
+	<title>loureir-or-not</title>
+	<meta name="description" content="This is the homepage for loureir-or-not's website." />
+</svelte:head>
+
 <section id="hero" class="flex w-full flex-col justify-center gap-4 md:flex-row">
 	<div id="hero-text" class="flex flex-col gap-2">
 		<h1>renato loureiro - he/him</h1>

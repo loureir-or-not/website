@@ -5,6 +5,11 @@
 	let { data }: PageProps = $props();
 </script>
 
+<svelte:head>
+	<title>loureir-or-not's blog</title>
+	<meta name="description" content="This is loureir-or-not's blog. You can find posts written by loureir-or-not here." />
+</svelte:head>
+
 <section class="flex flex-col gap-4">
 	<p>
 		Welcome to my blog. Here you can find a selection of posts from my newest to my oldest. Look at

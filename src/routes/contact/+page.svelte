@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>loureir-or-not's contact information</title>
+	<meta name="description" content="This is where you can find loureir-or-not's contact information." />
+</svelte:head>
+
 <section id="contact-introduction" class="nerd flex flex-col gap-2">
 	<p>
 		Thank you for your interest, and willingness to contact me! I can be contacted in various
