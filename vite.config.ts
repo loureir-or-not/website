@@ -11,7 +11,7 @@ import rehypeSlug from 'rehype-slug';
 
 const mdsvexOptions = {
   extensions: ['.svx', '.md'],
-  rehypePlugins: [rehypeAutolinkHeadings, rehypeSlug],
+  rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
 	highlight: {
 		async highlighter(code, lang = 'text') {
 			const html = await codeToHtml(code, {

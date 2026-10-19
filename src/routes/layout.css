@@ -37,6 +37,10 @@ h3 {
     @apply p-4 rounded-sm;
 }
 
+.icon-link::after {
+    content: "# " / "Link";
+}
+
 ul li {
     list-style: circle inside;
 }
@@ -44,3 +48,4 @@ ul li {
 ol li {
     list-style: decimal inside;
 }
+
