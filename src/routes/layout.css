@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+html {
+	@apply bg-purple-200 font-sans;
+}
+
+nav {
+	@apply border-2 border-purple-900 p-2;
+}
+
+a {
+	@apply text-purple-900 transition-colors ease-in-out;
+}
+
+a:hover {
+	@apply text-purple-800;
+}
+
+h1 {
+	@apply text-3xl font-bold;
+}
+
+h2 {
+	@apply text-2xl font-bold;
+}
+
+h3 {
+	@apply text-xl font-bold;
+}
+
+.blog-entry {
+	@apply flex flex-col gap-2 border-2 border-purple-900 p-4;
+}
+
+.shiki {
+    @apply p-4 rounded-sm;
+}
+
+ul li {
+    list-style: circle inside;
+}
+
+ol li {
+    list-style: decimal inside;
+}
