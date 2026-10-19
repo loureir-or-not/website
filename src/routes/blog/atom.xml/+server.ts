@@ -9,7 +9,7 @@ export const GET: RequestHandler = () => {
 		.toSorted((a, b) => Date(b.date) - Date(a.date));
 	const feed = `<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://www.loureir-or-not.is-a.dev/blog</blog>
+	<id>https://www.loureir-or-not.is-a.dev</blog>
 	<title>loureir-or-not</title>
 	<updated>${Date(posts[0].date)}</updated>
 	<author>
@@ -29,5 +29,9 @@ ${md.render(post.content)}
 	</entry>`;
 	})}
 </feed>`;
-	return new Response(feed);
+	return new Response(feed, {
+		headers: {
+			"Content-Type": "application/atom+xml"
+		}
+	});
 };
