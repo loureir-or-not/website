@@ -30,6 +30,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.19.0",
 		"globals": "^17.6.0",
+		"markdown-it": "^15.0.3",
 		"mdsvex": "^0.12.7",
 		"playwright": "^1.60.0",
 		"prettier": "^3.8.3",
