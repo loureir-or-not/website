@@ -10,8 +10,8 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 
 const mdsvexOptions = {
-  extensions: ['.svx', '.md'],
-  rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
+	extensions: ['.svx', '.md'],
+	rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
 	highlight: {
 		async highlighter(code, lang = 'text') {
 			const html = await codeToHtml(code, {

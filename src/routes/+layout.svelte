@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
 	import type { LayoutProps } from './$types';
+	import { resolve } from '$app/paths';
 
 	let { children }: LayoutProps = $props();
 </script>
@@ -12,9 +13,9 @@
 
 <header class="w-full p-4">
 	<nav class="flex items-center justify-center gap-4">
-		<p><a href="/">Home</a></p>
-		<p><a href="/blog">Blog</a></p>
-		<p><a href="/contact">Contact</a></p>
+		<p><a href={resolve('/')}>Home</a></p>
+		<p><a href={resolve('/blog')}>Blog</a></p>
+		<p><a href={resolve('/contact')}>Contact</a></p>
 	</nav>
 </header>
 <main class="flex min-h-screen w-full justify-center p-4">

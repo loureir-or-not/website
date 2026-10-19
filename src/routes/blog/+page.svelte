@@ -10,9 +10,9 @@
 		the newest ones because the old ones might be bad.
 	</p>
 
-	{#each data.posts as post}
+	{#each data.posts as post (post.slug)}
 		<div class="blog-entry">
-			<h2><a href={`/blog/${post.slug}`}>{post.title}</a></h2>
+			<h2><a href={resolve(`/blog/${post.slug}`)}>{post.title}</a></h2>
 			<p>{post.description} - {post.date}</p>
 		</div>
 	{/each}
