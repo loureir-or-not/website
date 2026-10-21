@@ -40,11 +40,11 @@
 	    </div>
 	</div>
 	<div class="project">
-	    <h3>hetch</h3>
+	    <h3>sget</h3>
 	    <p>Fetch program written in Haskell, written as a task to avoid as much IO as possible while still making a usable program.</p>
 	    <div class="flex gap-2">
 		<p>
-		    <a href="https://github.com/loureir-or-not/hetch">GitHub</a>
+		    <a href="https://github.com/loureir-or-not/sget">GitHub</a>
 		</p>
 	    </div>
 	</div>
