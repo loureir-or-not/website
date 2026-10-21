@@ -19,7 +19,7 @@
 	</nav>
 </header>
 <main class="flex min-h-screen w-full justify-center p-4">
-	<div id="content" class="w-3xl">
+	<div id="content" class="flex flex-col gap-4 w-3xl">
 		{@render children()}
 	</div>
 </main>

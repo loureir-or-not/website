@@ -12,19 +12,25 @@
 		methods. I will list them in preferred order.
 	</p>
 	<ul>
-		<li><b>Email:</b> <a href="mailto:loureir.or.not@gmail.com">interact with me!</a></li>
-		<li>
-			<b>Matrix:</b>
-			<a href="https://matrix.to/#/@loureir-or-not:private.coffee">@loureir-or-not:private.coffee</a
-			>
-		</li>
+	    <li><b>Email:</b> <a href="mailto:loureir.or.not@gmail.com">interact with me!</a></li>
+	    <li>
+		<b>Matrix:</b>
+		<a href="https://matrix.to/#/@loureir-or-not:private.coffee">@loureir-or-not:private.coffee</a
+			                                                                                   >
+	    </li>
+	    <li>
+		<b>GitHub:</b>
+		<a href="https://github.com/loureir-or-not">loureir-or-not</a
+			                                                  >
+                </li>
 		<li>
 			<b>Fediverse:</b>
 			<a href="https://infosec.exchange/@loureir_or_not">@loureir_or_not@infosec.exchange</a>
 		</li>
 		<li>
-			<b>Discord:</b> <a href="https://discord.com/users/1417283414331232436">loureir_or_not</a>
+		    <b>Discord:</b> <a href="https://discord.com/users/1417283414331232436">loureir_or_not</a>
 		</li>
 		<li><b>Telegram:</b> @loureir_or_not</li>
+                <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/renato-loureiro-530aa43b1/">in/renato-loureiro-530aa43b</a></li>
 	</ul>
 </section>
